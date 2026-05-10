@@ -4,7 +4,7 @@ import axios from axios,
 
 function App(){
 
-    const users,setUsers=useState([]);
+    const [users,setUsers]=useState([]);
     const getUsers=async()=>{
         try {
           const response= await axios.get(
